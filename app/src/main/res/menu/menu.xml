@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+         <item
+             android:id="@+id/open"
+            android:title="@string/open"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/objects"
+            android:title="@string/objects"
+            app:showAsAction="always">
+            <menu>
+                    <item
+                        android:id="@+id/point"
+                        android:title="@string/point"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/line"
+                        android:title="@string/line"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/rect"
+                        android:title="@string/rect"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/ellipse"
+                        android:title="@string/ellipse"
+                        app:showAsAction="never"/>
+                     <item
+                        android:id="@+id/lineOO"
+                        android:title="@string/lineOO"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/cube"
+                        android:title="@string/cube"
+                        app:showAsAction="never"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/info"
+            android:title="@string/table"
+            app:showAsAction="always"/>
+
+</menu>
+
